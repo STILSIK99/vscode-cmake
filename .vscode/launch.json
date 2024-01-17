@@ -1,0 +1,26 @@
+{
+ 
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Debug/cmake_vscode_first.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "externalConsole": false,
+            "preLaunchTask": "CMake_build_debug"
+        },
+        {
+            "name": "Release",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/Release/cmake_vscode_first.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "preLaunchTask": "CMake_build_release"
+        }
+    ]
+}
